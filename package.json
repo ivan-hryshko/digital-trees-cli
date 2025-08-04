@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Grow a tree in your cli",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "dtrees": "./dist/index.js"
   },
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/ivan-hryshko/digital-trees-cli#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
